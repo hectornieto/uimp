@@ -1,0 +1,10 @@
+libgdal-dev
+libproj-dev
+libgeos-dev
+python3-gdal
+gdal-bin
+gdal-data
+libgl1-mesa-glx
+ffmpeg
+libsm6
+libxext6

@@ -1,0 +1,4 @@
+format: jb-article
+root: intro
+sections:
+- file: ES_evapotranspiracion_sistemas_agroforestales.ipynb

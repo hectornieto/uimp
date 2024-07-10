@@ -1,24 +1,33 @@
-name: curso_wue
+name: tseb-workshop
 channels:
     - conda-forge
+    - plotly
 dependencies:
-    - python=3
-    - pip
+    - jupyter
+    - notebook
+    - jupyterlab
+    - jupyter-book
+    - ipywidgets
+    - nodejs>=20,<21
+    - mystmd
+    - jupyterlab-myst
+    - libwebp
     - gdal
     - numpy
     - scipy
     - pandas
-    - jupyter
-    - notebook
+    - matplotlib
+    - plotly
     - bokeh
     - netCDF4
     - scikit-learn
     - SALib
-    - matplotlib
     - cdsapi
     - numba
+    - plotly
+    - pip
     - pip:
         - git+https://github.com/hectornieto/pypro4sail
         - git+https://github.com/hectornieto/pyTSEB
         - git+https://github.com/hectornieto/model_evaluation
-        - git+https://github.com/radosuav/pyDMS
+

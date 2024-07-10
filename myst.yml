@@ -1,0 +1,42 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Teledetección como herramienta global. IV Edición
+  description: Two-day workshop that will show the most recent advances made in TSEB modelling framework as well as pyTSEB code structure and syntaxis.
+  keywords:
+      - MyST Markdown
+      - pyTSEB Tutorial
+  authors:
+      - name: Héctor Nieto
+        affiliation: Instituto de Ciencias Agrarias, ICA-CSIC, Spain
+        orcid: 0000-0003-4250-6424
+        email: hector.nieto@ica.csic.es
+      - name: Vicente Burchard-Levine
+        affiliation: Instituto de Ciencias Agrarias, ICA-CSIC, Spain
+        orcid: 0000-0003-0222-8706
+      - name: Benjamin Mary
+        affiliation: Instituto de Ciencias Agrarias, ICA-CSIC, Spain
+        orcid: 0000-0003-0815-842X
+  gitlab: https://git.csic.es/tech4agro/courses/uimp
+  open_access: true
+  jupyter: 
+    # lite: true
+    # binder:
+    #   repo: hectornieto/TSEB-workshop
+    server:
+      url: http://localhost:8888
+      token: jupyterlab-tseb-workshop
+      
+
+  # bibliography: []
+site:
+  template: book-theme
+  title: Cuaderno digital sobre consumo de agua en cultivos leñosos por teledetección
+  options:
+    logo_text: Taller PyTSEB
+    logo: ./input/figures/shuttleworth_wallace_model.png
+  nav: []
+  actions:
+    - title: Learn More
+      url: https://mystmd.org/guide
+  domains: []

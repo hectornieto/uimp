@@ -1,0 +1,26 @@
+jupyter-book
+matplotlib
+numpy>1.0.0
+wheel
+setuptools>=67
+gdal[numpy]
+scipy
+pandas
+jupyter
+bokeh
+netCDF4
+scikit-learn
+SALib
+cdsapi
+numba
+plotly
+jupyterlab
+jupyterlab_myst
+ipywidgets
+sphinx
+plotly
+docutils<0.18
+pypro4sail @ git+https://github.com/hectornieto/pypro4sail
+pyTSEB @ git+https://github.com/hectornieto/pyTSEB
+model_evaluation @ git+https://github.com/hectornieto/model_evaluation
+
